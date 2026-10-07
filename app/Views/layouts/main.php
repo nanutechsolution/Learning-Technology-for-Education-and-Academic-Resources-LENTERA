@@ -21,6 +21,8 @@ $menus = [
         ['label' => 'Kelas',          'icon' => 'bi-door-open',     'url' => 'admin/classes',        'match' => 'admin/classes*'],
         ['label' => 'Mata Pelajaran', 'icon' => 'bi-book',          'url' => 'admin/subjects',       'match' => 'admin/subjects*'],
         ['label' => 'Course',         'icon' => 'bi-mortarboard',   'url' => 'admin/courses',        'match' => 'admin/courses*'],
+        ['heading' => 'Pengaturan'],
+        ['label' => 'Pengaturan Sekolah', 'icon' => 'bi-gear',      'url' => 'admin/school-settings', 'match' => 'admin/school-settings*'],
     ],
     'guru' => [
         ['label' => 'Dashboard',      'icon' => 'bi-speedometer2',  'url' => 'guru/dashboard',       'match' => 'guru/dashboard'],

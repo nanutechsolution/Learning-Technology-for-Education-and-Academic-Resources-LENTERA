@@ -26,6 +26,8 @@ class Dashboard extends BaseController
         $materialStats      = ['total' => 0, 'published' => 0, 'draft' => 0];
         $assignmentStats    = ['total' => 0, 'published' => 0, 'draft' => 0, 'pending' => 0];
         $assignmentByCourse = [];
+        $quizStats          = ['total' => 0, 'published' => 0, 'draft' => 0, 'submitted' => 0];
+        $quizByCourse       = [];
 
         if ($teacher) {
             $teacherId = (int) (is_object($teacher) ? $teacher->id : $teacher['id']);
@@ -52,6 +54,7 @@ class Dashboard extends BaseController
             ];
 
             [$assignmentStats, $assignmentByCourse] = $this->assignmentSummary($teacherId);
+            [$quizStats, $quizByCourse]             = $this->quizSummary($teacherId);
         }
 
         return auth_no_cache(
@@ -65,6 +68,8 @@ class Dashboard extends BaseController
                 'materialStats'      => $materialStats,
                 'assignmentStats'    => $assignmentStats,
                 'assignmentByCourse' => $assignmentByCourse,
+                'quizStats'          => $quizStats,
+                'quizByCourse'       => $quizByCourse,
             ]))
         );
     }
@@ -126,6 +131,64 @@ class Dashboard extends BaseController
             'published' => $published,
             'draft'     => $total - $published,
             'pending'   => array_sum(array_column($perCourse, 'pending')),
+        ], $perCourse];
+    }
+
+    /**
+     * Ringkasan quiz untuk seluruh course milik guru.
+     * "Selesai" = attempt berstatus submitted milik siswa yang masih terdaftar di course
+     * (sama dengan hitungan di daftar quiz guru).
+     *
+     * @return array{0: array, 1: array} [total keseluruhan, rincian per course]
+     */
+    private function quizSummary(int $teacherId): array
+    {
+        $db        = \Config\Database::connect();
+        $perCourse = [];
+
+        $rows = $db->table('quizzes q')
+            ->select('q.course_id, COUNT(*) AS total, SUM(CASE WHEN q.is_published = 1 THEN 1 ELSE 0 END) AS published')
+            ->join('courses c', 'c.id = q.course_id')
+            ->where('c.teacher_id', $teacherId)
+            ->groupBy('q.course_id')
+            ->get()
+            ->getResultArray();
+
+        foreach ($rows as $r) {
+            $perCourse[(int) $r['course_id']] = [
+                'total'     => (int) $r['total'],
+                'published' => (int) $r['published'],
+                'submitted' => 0,
+            ];
+        }
+
+        $doneRows = $db->table('quiz_attempts qa')
+            ->select('q.course_id, COUNT(*) AS submitted')
+            ->join('quizzes q', 'q.id = qa.quiz_id')
+            ->join('courses c', 'c.id = q.course_id')
+            ->join('course_students cs', 'cs.course_id = q.course_id AND cs.student_id = qa.student_id')
+            ->where('c.teacher_id', $teacherId)
+            ->where('qa.status', 'submitted')
+            ->groupBy('q.course_id')
+            ->get()
+            ->getResultArray();
+
+        foreach ($doneRows as $r) {
+            $cid = (int) $r['course_id'];
+
+            if (isset($perCourse[$cid])) {
+                $perCourse[$cid]['submitted'] = (int) $r['submitted'];
+            }
+        }
+
+        $total     = array_sum(array_column($perCourse, 'total'));
+        $published = array_sum(array_column($perCourse, 'published'));
+
+        return [[
+            'total'     => $total,
+            'published' => $published,
+            'draft'     => $total - $published,
+            'submitted' => array_sum(array_column($perCourse, 'submitted')),
         ], $perCourse];
     }
 }

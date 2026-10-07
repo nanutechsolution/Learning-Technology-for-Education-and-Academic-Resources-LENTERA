@@ -51,6 +51,11 @@ $routes->group('admin', ['namespace' => 'App\Controllers\Admin', 'filter' => 'ad
     $routes->post('courses/(:num)/students/add', 'Courses::addStudent/$1');
     $routes->post('courses/(:num)/students/add-class', 'Courses::addClass/$1');
     $routes->post('courses/(:num)/students/(:num)/remove', 'Courses::removeStudent/$1/$2');
+
+    // Pengaturan sekolah (satu baris tunggal): form, simpan, pratinjau logo
+    $routes->get('school-settings', 'SchoolSettings::edit');
+    $routes->post('school-settings/update', 'SchoolSettings::update');
+    $routes->get('school-settings/logo', 'SchoolSettings::logo');
 });
 
 /*

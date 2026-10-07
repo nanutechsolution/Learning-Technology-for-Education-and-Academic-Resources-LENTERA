@@ -1,0 +1,440 @@
+<?php return array (
+  'search' => 
+  array (
+    'Config/Services' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Config\\Services.php',
+          1 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Config\\Services.php',
+        ),
+      ),
+    ),
+    'Config/Registrar.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    'Helpers/kint_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Helpers\\kint_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/url_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Helpers\\url_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/filesystem_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Helpers\\filesystem_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/array_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Helpers\\array_helper.php',
+        ),
+      ),
+    ),
+    'Config/Routes.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Config\\Routes.php',
+        ),
+      ),
+    ),
+    'Config/Events.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Config\\Events.php',
+        ),
+      ),
+    ),
+    'Config/Filters.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Config\\Filters.php',
+          1 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Config\\Filters.php',
+        ),
+      ),
+    ),
+    'Language/en/{field} wajib diisi.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/{field} maksimal {param} karakter.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/{field} harus berupa 8 digit angka.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/{field} tidak valid.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/{field} hanya boleh berisi angka, spasi, dan karakter + ( ) - .php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/{field} harus berupa URL yang valid diawali http:// atau https://.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/{field} hanya boleh berisi angka dan spasi.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/Judul quiz wajib diisi.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/Durasi harus berupa bilangan bulat lebih dari 0.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/Poin harus berupa bilangan bulat lebih dari 0.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Language/en/Teks pertanyaan wajib diisi.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
+    'Helpers/security_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Helpers\\security_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/auth_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Helpers\\auth_helper.php',
+        ),
+      ),
+    ),
+    'Language/en/HTTP.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Language\\en\\HTTP.php',
+        ),
+      ),
+    ),
+    'Language/en/Errors.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Language\\en\\Errors.php',
+        ),
+      ),
+    ),
+    'Helpers/number_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Helpers\\number_helper.php',
+        ),
+      ),
+    ),
+    'Language/en/Number.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Language\\en\\Number.php',
+        ),
+      ),
+    ),
+    'Helpers/branding_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Helpers\\branding_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/material_file_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Helpers\\material_file_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/assignment_file_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Helpers\\assignment_file_helper.php',
+        ),
+      ),
+    ),
+  ),
+  'findQualifiedNameFromPath' => 
+  array (
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Config\\Services.php' => 'Config\\Services',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\CheckAssignment.php' => 'App\\Commands\\CheckAssignment',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\MaterialCheck.php' => 'App\\Commands\\MaterialCheck',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\SmokeQuizModels.php' => 'App\\Commands\\SmokeQuizModels',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\SmokeSchoolSettings.php' => 'App\\Commands\\SmokeSchoolSettings',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\TestData.php' => 'App\\Commands\\TestData',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\VerifyPhase3.php' => 'App\\Commands\\VerifyPhase3',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\VerifyPhase4.php' => 'App\\Commands\\VerifyPhase4',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Cache\\ClearCache.php' => 'CodeIgniter\\Commands\\Cache\\ClearCache',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Cache\\InfoCache.php' => 'CodeIgniter\\Commands\\Cache\\InfoCache',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\CreateDatabase.php' => 'CodeIgniter\\Commands\\Database\\CreateDatabase',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\Migrate.php' => 'CodeIgniter\\Commands\\Database\\Migrate',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\MigrateRefresh.php' => 'CodeIgniter\\Commands\\Database\\MigrateRefresh',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\MigrateRollback.php' => 'CodeIgniter\\Commands\\Database\\MigrateRollback',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\MigrateStatus.php' => 'CodeIgniter\\Commands\\Database\\MigrateStatus',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\Seed.php' => 'CodeIgniter\\Commands\\Database\\Seed',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\ShowTableInfo.php' => 'CodeIgniter\\Commands\\Database\\ShowTableInfo',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Encryption\\GenerateKey.php' => 'CodeIgniter\\Commands\\Encryption\\GenerateKey',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\CellGenerator.php' => 'CodeIgniter\\Commands\\Generators\\CellGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\CommandGenerator.php' => 'CodeIgniter\\Commands\\Generators\\CommandGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ConfigGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ConfigGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ControllerGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ControllerGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\EntityGenerator.php' => 'CodeIgniter\\Commands\\Generators\\EntityGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\FilterGenerator.php' => 'CodeIgniter\\Commands\\Generators\\FilterGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\MigrationGenerator.php' => 'CodeIgniter\\Commands\\Generators\\MigrationGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ModelGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ModelGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ScaffoldGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ScaffoldGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\SeederGenerator.php' => 'CodeIgniter\\Commands\\Generators\\SeederGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\TestGenerator.php' => 'CodeIgniter\\Commands\\Generators\\TestGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\TransformerGenerator.php' => 'CodeIgniter\\Commands\\Generators\\TransformerGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ValidationGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ValidationGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\cell.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\cell_view.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\command.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\config.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\controller.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\entity.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\filter.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\migration.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\model.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\seeder.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\test.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\transformer.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\validation.tpl.php' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Help.php' => 'CodeIgniter\\Commands\\Help',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Housekeeping\\ClearDebugbar.php' => 'CodeIgniter\\Commands\\Housekeeping\\ClearDebugbar',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Housekeeping\\ClearLogs.php' => 'CodeIgniter\\Commands\\Housekeeping\\ClearLogs',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\ListCommands.php' => 'CodeIgniter\\Commands\\ListCommands',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Server\\Serve.php' => 'CodeIgniter\\Commands\\Server\\Serve',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Translation\\LocalizationFinder.php' => 'CodeIgniter\\Commands\\Translation\\LocalizationFinder',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Translation\\LocalizationSync.php' => 'CodeIgniter\\Commands\\Translation\\LocalizationSync',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\ConfigCheck.php' => 'CodeIgniter\\Commands\\Utilities\\ConfigCheck',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Environment.php' => 'CodeIgniter\\Commands\\Utilities\\Environment',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\FilterCheck.php' => 'CodeIgniter\\Commands\\Utilities\\FilterCheck',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Namespaces.php' => 'CodeIgniter\\Commands\\Utilities\\Namespaces',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Optimize.php' => 'CodeIgniter\\Commands\\Utilities\\Optimize',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\PhpIniCheck.php' => 'CodeIgniter\\Commands\\Utilities\\PhpIniCheck',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Publish.php' => 'CodeIgniter\\Commands\\Utilities\\Publish',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes.php' => 'CodeIgniter\\Commands\\Utilities\\Routes',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\AutoRouteCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouteCollector',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\AutoRouterImproved\\AutoRouteCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouterImproved\\AutoRouteCollector',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\AutoRouterImproved\\ControllerMethodReader.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouterImproved\\ControllerMethodReader',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\ControllerFinder.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\ControllerFinder',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\ControllerMethodReader.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\ControllerMethodReader',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\FilterCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\FilterCollector',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\FilterFinder.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\FilterFinder',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\SampleURIGenerator.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\SampleURIGenerator',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Worker\\Views\\Caddyfile.tpl' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Worker\\Views\\frankenphp-worker.php.tpl' => false,
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Worker\\WorkerInstall.php' => 'CodeIgniter\\Commands\\Worker\\WorkerInstall',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Worker\\WorkerUninstall.php' => 'CodeIgniter\\Commands\\Worker\\WorkerUninstall',
+  ),
+  'listFiles' => 
+  array (
+    'Commands/' => 
+    array (
+      0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\CheckAssignment.php',
+      1 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\MaterialCheck.php',
+      2 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\SmokeQuizModels.php',
+      3 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\SmokeSchoolSettings.php',
+      4 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\TestData.php',
+      5 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\VerifyPhase3.php',
+      6 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Commands\\VerifyPhase4.php',
+      7 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Cache\\ClearCache.php',
+      8 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Cache\\InfoCache.php',
+      9 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\CreateDatabase.php',
+      10 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\Migrate.php',
+      11 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\MigrateRefresh.php',
+      12 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\MigrateRollback.php',
+      13 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\MigrateStatus.php',
+      14 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\Seed.php',
+      15 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Database\\ShowTableInfo.php',
+      16 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Encryption\\GenerateKey.php',
+      17 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\CellGenerator.php',
+      18 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\CommandGenerator.php',
+      19 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ConfigGenerator.php',
+      20 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ControllerGenerator.php',
+      21 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\EntityGenerator.php',
+      22 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\FilterGenerator.php',
+      23 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\MigrationGenerator.php',
+      24 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ModelGenerator.php',
+      25 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ScaffoldGenerator.php',
+      26 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\SeederGenerator.php',
+      27 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\TestGenerator.php',
+      28 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\TransformerGenerator.php',
+      29 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\ValidationGenerator.php',
+      30 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\cell.tpl.php',
+      31 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\cell_view.tpl.php',
+      32 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\command.tpl.php',
+      33 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\config.tpl.php',
+      34 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\controller.tpl.php',
+      35 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\entity.tpl.php',
+      36 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\filter.tpl.php',
+      37 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\migration.tpl.php',
+      38 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\model.tpl.php',
+      39 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\seeder.tpl.php',
+      40 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\test.tpl.php',
+      41 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\transformer.tpl.php',
+      42 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Generators\\Views\\validation.tpl.php',
+      43 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Help.php',
+      44 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Housekeeping\\ClearDebugbar.php',
+      45 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Housekeeping\\ClearLogs.php',
+      46 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\ListCommands.php',
+      47 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Server\\Serve.php',
+      48 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Translation\\LocalizationFinder.php',
+      49 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Translation\\LocalizationSync.php',
+      50 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\ConfigCheck.php',
+      51 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Environment.php',
+      52 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\FilterCheck.php',
+      53 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Namespaces.php',
+      54 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Optimize.php',
+      55 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\PhpIniCheck.php',
+      56 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Publish.php',
+      57 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes.php',
+      58 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\AutoRouteCollector.php',
+      59 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\AutoRouterImproved\\AutoRouteCollector.php',
+      60 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\AutoRouterImproved\\ControllerMethodReader.php',
+      61 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\ControllerFinder.php',
+      62 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\ControllerMethodReader.php',
+      63 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\FilterCollector.php',
+      64 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\FilterFinder.php',
+      65 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Utilities\\Routes\\SampleURIGenerator.php',
+      66 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Worker\\Views\\Caddyfile.tpl',
+      67 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Worker\\Views\\frankenphp-worker.php.tpl',
+      68 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Worker\\WorkerInstall.php',
+      69 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Commands\\Worker\\WorkerUninstall.php',
+    ),
+  ),
+  'getClassname' => 
+  array (
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Config\\Filters.php' => 'Config\\Filters',
+    'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Config\\Filters.php' => 'CodeIgniter\\Config\\Filters',
+  ),
+);

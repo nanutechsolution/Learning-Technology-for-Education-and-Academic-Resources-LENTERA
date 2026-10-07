@@ -91,8 +91,35 @@
     ];
     ?>
 
-    <div class="row g-3 mb-4">
+    <div class="row g-3 mb-3">
         <?php foreach ($assignmentCards as $card): ?>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="rounded bg-<?= $card['color'] ?> bg-opacity-10 text-<?= $card['color'] ?> d-flex align-items-center justify-content-center me-3" style="width:56px;height:56px;">
+                            <i class="bi <?= $card['icon'] ?> fs-3"></i>
+                        </div>
+                        <div>
+                            <div class="text-muted small"><?= esc($card['label']) ?></div>
+                            <div class="fs-3 fw-semibold"><?= (int) $card['value'] ?></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+
+    <?php
+    $quizCards = [
+        ['label' => 'Jumlah Quiz',        'value' => $quizStats['total'],     'color' => 'primary',   'icon' => 'bi-patch-question'],
+        ['label' => 'Quiz Dipublish',     'value' => $quizStats['published'], 'color' => 'success',   'icon' => 'bi-check2-square'],
+        ['label' => 'Quiz Draft',         'value' => $quizStats['draft'],     'color' => 'secondary', 'icon' => 'bi-pencil-square'],
+        ['label' => 'Pengerjaan Selesai', 'value' => $quizStats['submitted'], 'color' => 'info',      'icon' => 'bi-bar-chart'],
+    ];
+    ?>
+
+    <div class="row g-3 mb-4">
+        <?php foreach ($quizCards as $card): ?>
             <div class="col-12 col-sm-6 col-xl-3">
                 <div class="card shadow-sm h-100">
                     <div class="card-body d-flex align-items-center">
@@ -123,15 +150,19 @@
                         <th>Mata Pelajaran</th>
                         <th>Status</th>
                         <th>Tugas</th>
+                        <th>Quiz</th>
                         <th class="text-end">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
                     <?php if (empty($courses)): ?>
-                        <tr><td colspan="5" class="text-center text-muted py-3">Belum ada course.</td></tr>
+                        <tr><td colspan="6" class="text-center text-muted py-3">Belum ada course.</td></tr>
                     <?php else: ?>
                         <?php foreach ($courses as $c): ?>
-                            <?php $ac = $assignmentByCourse[(int) $c['id']] ?? ['total' => 0, 'published' => 0, 'pending' => 0]; ?>
+                            <?php
+                            $ac = $assignmentByCourse[(int) $c['id']] ?? ['total' => 0, 'published' => 0, 'pending' => 0];
+                            $qc = $quizByCourse[(int) $c['id']] ?? ['total' => 0, 'published' => 0, 'submitted' => 0];
+                            ?>
                             <tr>
                                 <td><?= esc($c['title']) ?></td>
                                 <td><?= esc($subjectNames[$c['subject_id']] ?? '-') ?></td>
@@ -146,6 +177,12 @@
                                         <span class="badge text-bg-info ms-1"><?= (int) $ac['pending'] ?> perlu dinilai</span>
                                     <?php endif; ?>
                                 </td>
+                                <td class="text-nowrap">
+                                    <span class="fw-semibold"><?= (int) $qc['total'] ?></span>
+                                    <?php if ((int) $qc['submitted'] > 0): ?>
+                                        <span class="badge text-bg-success ms-1"><?= (int) $qc['submitted'] ?> pengerjaan selesai</span>
+                                    <?php endif; ?>
+                                </td>
                                 <td class="text-end">
                                     <div class="d-flex flex-wrap justify-content-end gap-1">
                                         <a href="<?= site_url('guru/courses/' . (int) $c['id'] . '/materials') ?>" class="btn btn-sm btn-primary">
@@ -153,6 +190,9 @@
                                         </a>
                                         <a href="<?= site_url('guru/courses/' . (int) $c['id'] . '/assignments') ?>" class="btn btn-sm btn-outline-primary">
                                             <i class="bi bi-clipboard-check me-1"></i>Tugas
+                                        </a>
+                                        <a href="<?= site_url('guru/courses/' . (int) $c['id'] . '/quizzes') ?>" class="btn btn-sm btn-outline-primary">
+                                            <i class="bi bi-patch-question me-1"></i>Quiz
                                         </a>
                                     </div>
                                 </td>

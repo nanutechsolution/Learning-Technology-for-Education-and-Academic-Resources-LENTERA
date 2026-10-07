@@ -157,6 +157,76 @@
         </div>
     <?php endif; ?>
 
+    <?php if ((int) $quizStats['total'] === 0): ?>
+        <div class="alert alert-light border mb-4">
+            <i class="bi bi-patch-question me-1"></i> Belum ada quiz.
+        </div>
+    <?php else: ?>
+        <?php
+        $quizCards = [
+            ['label' => 'Dapat Dikerjakan', 'value' => (string) (int) $quizStats['available'], 'color' => 'primary', 'icon' => 'bi-play-circle'],
+            [
+                'label' => 'Sudah Selesai',
+                'value' => (string) (int) $quizStats['submitted'],
+                'color' => 'success',
+                'icon'  => 'bi-patch-check',
+                'note'  => $quizStats['average'] === null ? null : 'Rata-rata ' . number_format((float) $quizStats['average'], 2, ',', '.'),
+            ],
+            ['label' => 'Belum Dibuka', 'value' => (string) (int) $quizStats['upcoming'], 'color' => 'info', 'icon' => 'bi-hourglass-split'],
+            ['label' => 'Ditutup (Tidak Dikerjakan)', 'value' => (string) (int) $quizStats['closed'], 'color' => 'danger', 'icon' => 'bi-lock'],
+        ];
+        $fmtQuiz = static fn ($d): string => empty($d) ? 'Tanpa batas akhir' : date('d/m/Y H:i', strtotime((string) $d));
+        ?>
+
+        <div class="row g-3 mb-3">
+            <?php foreach ($quizCards as $card): ?>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body d-flex align-items-center">
+                            <div class="rounded bg-<?= $card['color'] ?> bg-opacity-10 text-<?= $card['color'] ?> d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width:56px;height:56px;">
+                                <i class="bi <?= $card['icon'] ?> fs-3"></i>
+                            </div>
+                            <div>
+                                <div class="text-muted small"><?= esc($card['label']) ?></div>
+                                <div class="fs-3 fw-semibold"><?= esc($card['value']) ?></div>
+                                <?php if (! empty($card['note'])): ?>
+                                    <div class="small text-muted"><?= esc($card['note']) ?></div>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-white fw-semibold">Quiz yang Perlu Dikerjakan</div>
+            <?php if (empty($quizUpcoming)): ?>
+                <div class="card-body text-center text-muted py-3">Tidak ada quiz yang menunggu. Semua sudah selesai, belum dibuka, atau ditutup.</div>
+            <?php else: ?>
+                <div class="list-group list-group-flush">
+                    <?php foreach ($quizUpcoming as $z): ?>
+                        <a href="<?= site_url('siswa/quizzes/' . (int) $z['id']) ?>"
+                            class="list-group-item list-group-item-action d-flex flex-wrap justify-content-between align-items-center gap-2">
+                            <div>
+                                <div class="fw-semibold">
+                                    <?= esc($z['title']) ?>
+                                    <?php if (($z['state'] ?? '') === 'in_progress'): ?>
+                                        <span class="badge text-bg-warning text-dark ms-1">Sedang dikerjakan</span>
+                                    <?php endif; ?>
+                                </div>
+                                <div class="small text-muted"><?= esc($z['course_title'] ?? '-') ?></div>
+                            </div>
+                            <div class="small text-nowrap">
+                                <i class="bi bi-clock me-1"></i><?= esc($fmtQuiz($z['end_at'])) ?>
+                            </div>
+                        </a>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
+        </div>
+    <?php endif; ?>
+
     <?php
     $badges = ['draft' => 'secondary', 'active' => 'success', 'archived' => 'dark'];
     ?>
@@ -193,6 +263,9 @@
                                         </a>
                                         <a href="<?= site_url('siswa/courses/' . (int) $c['id'] . '/assignments') ?>" class="btn btn-sm btn-outline-primary">
                                             <i class="bi bi-clipboard-check me-1"></i>Tugas
+                                        </a>
+                                        <a href="<?= site_url('siswa/courses/' . (int) $c['id'] . '/quizzes') ?>" class="btn btn-sm btn-outline-primary">
+                                            <i class="bi bi-patch-question me-1"></i>Quiz
                                         </a>
                                     </div>
                                 </td>
