@@ -114,7 +114,13 @@ $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) 
         </nav>
 
         <div class="sidebar-footer">
-            Learning Technology for Education and Academic Resources
+            <form method="post" action="<?= site_url('logout') ?>">
+                <?= csrf_field() ?>
+                <button type="submit" class="sidebar-logout">
+                    <i class="bi bi-box-arrow-left"></i>
+                    <span>Keluar</span>
+                </button>
+            </form>
         </div>
     </aside>
 
@@ -131,12 +137,12 @@ $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) 
             <div class="d-none d-lg-block text-muted small"><?= esc($schoolLabel) ?></div>
 
             <div class="dropdown ms-auto">
-                <button class="btn btn-light border d-flex align-items-center gap-2" type="button"
+                <button class="btn btn-light border-0 bg-transparent d-flex align-items-center gap-2" type="button"
                     data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="bi bi-person-circle fs-5"></i>
+                    <span class="user-avatar"><i class="bi bi-person-fill"></i></span>
                     <span class="d-none d-sm-inline text-start lh-sm">
+                        <span class="d-block text-muted nav-role">Selamat datang,</span>
                         <span class="d-block fw-semibold small"><?= esc($authUser['name'] ?? '') ?></span>
-                        <span class="d-block text-muted nav-role"><?= esc($roleLabels[$role] ?? '') ?></span>
                     </span>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end">

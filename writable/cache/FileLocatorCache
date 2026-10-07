@@ -182,6 +182,36 @@
         ),
       ),
     ),
+    'Language/en/Validation.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Language\\en\\Validation.php',
+          1 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Language\\en\\Validation.php',
+        ),
+      ),
+    ),
+    'Language/en/Security.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\system\\Language\\en\\Security.php',
+        ),
+      ),
+    ),
+    'Language/en/Nilai wajib diisi.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+        ),
+      ),
+    ),
   ),
   'findQualifiedNameFromPath' => 
   array (
@@ -384,6 +414,18 @@
         16 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Database\\Migrations\\2026-10-06-092244_CreateQuizAnswersTable.php',
         17 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Database\\Migrations\\2026-10-07-004941_CreateSchoolSettingsTable.php',
         18 => 'D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\app\\Database\\Migrations\\2026-10-07-020000_CreateAnnouncementsTable.php',
+      ),
+    ),
+    'CodeIgniter' => 
+    array (
+      '/Database/Migrations/' => 
+      array (
+      ),
+    ),
+    'Config' => 
+    array (
+      '/Database/Migrations/' => 
+      array (
       ),
     ),
   ),
