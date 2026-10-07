@@ -11,6 +11,12 @@
         Akun Anda belum terhubung dengan data guru. Hubungi admin.
     </div>
 <?php else: ?>
+    <?= view('announcements/_widget', [
+        'items'        => $announcements ?? [],
+        'detailPrefix' => 'guru/announcements',
+        'allUrl'       => 'guru/announcements',
+    ]) ?>
+
     <div class="row g-3 mb-3">
         <div class="col-12 col-sm-6">
             <div class="card shadow-sm h-100">

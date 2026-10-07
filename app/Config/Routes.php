@@ -16,6 +16,9 @@ $routes->get('login', 'Auth::login');
 $routes->post('login', 'Auth::attempt');
 $routes->post('logout', 'Auth::logout');
 
+// Logo sekolah (publik, hanya GET, tanpa parameter): dipakai halaman login dan layout
+$routes->get('school-logo', 'Branding::logo');
+
 /*
  * ------------------------------------------------------------------
  * ADMIN  (filter: admin)
@@ -53,6 +56,15 @@ $routes->group('admin', ['namespace' => 'App\Controllers\Admin', 'filter' => 'ad
     $routes->post('courses/(:num)/students/(:num)/remove', 'Courses::removeStudent/$1/$2');
 
     // Pengaturan sekolah (satu baris tunggal): form, simpan, pratinjau logo
+    $routes->get('announcements', 'Announcements::index');
+    $routes->get('announcements/create', 'Announcements::create');
+    $routes->post('announcements', 'Announcements::store');
+    $routes->get('announcements/(:num)', 'Announcements::show/$1');
+    $routes->get('announcements/(:num)/edit', 'Announcements::edit/$1');
+    $routes->post('announcements/(:num)/update', 'Announcements::update/$1');
+    $routes->post('announcements/(:num)/delete', 'Announcements::delete/$1');
+    $routes->post('announcements/(:num)/toggle-publish', 'Announcements::togglePublish/$1');
+
     $routes->get('school-settings', 'SchoolSettings::edit');
     $routes->post('school-settings/update', 'SchoolSettings::update');
     $routes->get('school-settings/logo', 'SchoolSettings::logo');
@@ -124,6 +136,17 @@ $routes->group('guru', ['namespace' => 'App\Controllers\Guru', 'filter' => 'guru
     // Phase 4: hasil pengerjaan quiz dan detail jawaban siswa
     $routes->get('quizzes/(:num)/results', 'Attempts::index/$1');
     $routes->get('attempts/(:num)', 'Attempts::show/$1');
+
+    $routes->get('announcements', 'Announcements::index');
+    $routes->get('announcements/create', 'Announcements::create');
+    $routes->post('announcements', 'Announcements::store');
+    $routes->get('courses/(:num)/announcements', 'Announcements::byCourse/$1');
+    $routes->get('courses/(:num)/announcements/create', 'Announcements::create/$1');
+    $routes->get('announcements/(:num)', 'Announcements::show/$1');
+    $routes->get('announcements/(:num)/edit', 'Announcements::edit/$1');
+    $routes->post('announcements/(:num)/update', 'Announcements::update/$1');
+    $routes->post('announcements/(:num)/delete', 'Announcements::delete/$1');
+    $routes->post('announcements/(:num)/toggle-publish', 'Announcements::togglePublish/$1');
 });
 
 /*
@@ -154,4 +177,7 @@ $routes->group('siswa', ['namespace' => 'App\Controllers\Siswa', 'filter' => 'si
     $routes->get('quizzes/(:num)/take', 'Quizzes::take/$1');
     $routes->post('quizzes/(:num)/save', 'Quizzes::save/$1');
     $routes->post('quizzes/(:num)/submit', 'Quizzes::submit/$1');
+
+    $routes->get('announcements', 'Announcements::index');
+    $routes->get('announcements/(:num)', 'Announcements::show/$1');
 });

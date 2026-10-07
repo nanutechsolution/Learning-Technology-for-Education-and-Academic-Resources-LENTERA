@@ -36,4 +36,12 @@ $cards = [
     <?php endforeach; ?>
 </div>
 
+<div class="mt-3">
+    <?= view('announcements/_widget', [
+        'items'        => $announcements ?? [],
+        'detailPrefix' => 'admin/announcements',
+        'allUrl'       => 'admin/announcements',
+    ]) ?>
+</div>
+
 <?= $this->endSection() ?>

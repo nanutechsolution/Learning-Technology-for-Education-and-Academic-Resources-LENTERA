@@ -3,6 +3,7 @@
 namespace App\Controllers\Guru;
 
 use App\Controllers\BaseController;
+use App\Models\AnnouncementModel;
 use App\Models\CourseModel;
 use App\Models\MaterialModel;
 use App\Models\SubjectModel;
@@ -28,6 +29,7 @@ class Dashboard extends BaseController
         $assignmentByCourse = [];
         $quizStats          = ['total' => 0, 'published' => 0, 'draft' => 0, 'submitted' => 0];
         $quizByCourse       = [];
+        $announcements      = [];
 
         if ($teacher) {
             $teacherId = (int) (is_object($teacher) ? $teacher->id : $teacher['id']);
@@ -55,6 +57,8 @@ class Dashboard extends BaseController
 
             [$assignmentStats, $assignmentByCourse] = $this->assignmentSummary($teacherId);
             [$quizStats, $quizByCourse]             = $this->quizSummary($teacherId);
+
+            $announcements = (new AnnouncementModel())->latestForTeacher($teacherId, 5);
         }
 
         return auth_no_cache(
@@ -70,6 +74,7 @@ class Dashboard extends BaseController
                 'assignmentByCourse' => $assignmentByCourse,
                 'quizStats'          => $quizStats,
                 'quizByCourse'       => $quizByCourse,
+                'announcements'      => $announcements,
             ]))
         );
     }

@@ -3,6 +3,7 @@
 namespace App\Controllers\Siswa;
 
 use App\Controllers\BaseController;
+use App\Models\AnnouncementModel;
 use App\Models\AssignmentModel;
 use App\Models\ClassModel;
 use App\Models\CourseModel;
@@ -30,6 +31,7 @@ class Dashboard extends BaseController
         $upcoming        = [];
         $quizStats       = ['total' => 0, 'available' => 0, 'submitted' => 0, 'upcoming' => 0, 'closed' => 0, 'average' => null];
         $quizUpcoming    = [];
+        $announcements   = [];
 
         if ($student) {
             $student   = (array) $student;
@@ -61,6 +63,9 @@ class Dashboard extends BaseController
             [$quizStats, $quizUpcoming]   = $this->quizOverview($studentId);
         }
 
+        // Siswa tanpa profil tetap melihat pengumuman sekolah.
+        $announcements = (new AnnouncementModel())->latestForStudent($student ? (int) $student['id'] : null, 5);
+
         return auth_no_cache(
             $this->response->setBody(view('siswa/dashboard', [
                 'title'           => 'Dashboard Siswa',
@@ -73,6 +78,7 @@ class Dashboard extends BaseController
                 'upcoming'        => $upcoming,
                 'quizStats'       => $quizStats,
                 'quizUpcoming'    => $quizUpcoming,
+                'announcements'   => $announcements,
             ]))
         );
     }

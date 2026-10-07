@@ -1,9 +1,14 @@
 <?php
-helper(['auth', 'url']);
+helper(['auth', 'url', 'school']);
 
 $authUser  = auth_user();
 $role      = auth_role();
 $pageTitle = $title ?? 'Dashboard';
+
+$schoolLabel = school_display_name();
+$brandSub    = school_brand_sub();
+$footerPlace = school_footer_place();
+$logoUrl     = school_logo_url();
 
 $roleLabels = [
     'admin' => 'Administrator',
@@ -21,6 +26,8 @@ $menus = [
         ['label' => 'Kelas',          'icon' => 'bi-door-open',     'url' => 'admin/classes',        'match' => 'admin/classes*'],
         ['label' => 'Mata Pelajaran', 'icon' => 'bi-book',          'url' => 'admin/subjects',       'match' => 'admin/subjects*'],
         ['label' => 'Course',         'icon' => 'bi-mortarboard',   'url' => 'admin/courses',        'match' => 'admin/courses*'],
+        ['heading' => 'Komunikasi'],
+        ['label' => 'Pengumuman',     'icon' => 'bi-megaphone',     'url' => 'admin/announcements',  'match' => 'admin/announcements*'],
         ['heading' => 'Pengaturan'],
         ['label' => 'Pengaturan Sekolah', 'icon' => 'bi-gear',      'url' => 'admin/school-settings', 'match' => 'admin/school-settings*'],
     ],
@@ -30,10 +37,13 @@ $menus = [
         ['label' => 'Materi',         'icon' => 'bi-journal-text',  'url' => 'guru/courses',         'match' => ['guru/courses', 'guru/courses/*/materials*', 'guru/materials*']],
         ['label' => 'Tugas',          'icon' => 'bi-clipboard-check', 'url' => 'guru/courses',       'match' => ['guru/courses/*/assignments*', 'guru/assignments*', 'guru/submissions*']],
         ['label' => 'Quiz',           'icon' => 'bi-patch-question', 'url' => 'guru/courses',        'match' => ['guru/courses/*/quizzes*', 'guru/quizzes*', 'guru/questions*', 'guru/attempts*']],
+        ['heading' => 'Komunikasi'],
+        ['label' => 'Pengumuman',     'icon' => 'bi-megaphone',     'url' => 'guru/announcements',   'match' => ['guru/announcements*', 'guru/courses/*/announcements*']],
     ],
     'siswa' => [
         ['label' => 'Dashboard',      'icon' => 'bi-speedometer2',  'url' => 'siswa/dashboard',      'match' => 'siswa/dashboard'],
         ['label' => 'Kelas Saya',     'icon' => 'bi-journal-bookmark', 'url' => 'siswa/courses',     'match' => ['siswa/courses*', 'siswa/materials*', 'siswa/assignments*', 'siswa/quizzes*']],
+        ['label' => 'Pengumuman',     'icon' => 'bi-megaphone',     'url' => 'siswa/announcements',  'match' => 'siswa/announcements*'],
     ],
 ];
 
@@ -54,7 +64,7 @@ $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?= esc($pageTitle) ?> | LENTERA</title>
+    <title><?= esc(school_page_title((string) $pageTitle)) ?></title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -66,10 +76,16 @@ $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) 
 
     <aside class="lentera-sidebar" id="sidebar" aria-label="Menu utama">
         <a href="<?= auth_dashboard_url() ?>" class="sidebar-brand">
-            <span class="brand-mark"><i class="bi bi-lightbulb-fill"></i></span>
-            <span>
+            <span class="brand-mark<?= $logoUrl !== null ? ' has-logo' : '' ?>">
+                <?php if ($logoUrl !== null): ?>
+                    <img src="<?= esc($logoUrl, 'attr') ?>" alt="Logo <?= esc($schoolLabel, 'attr') ?>">
+                <?php else: ?>
+                    <i class="bi bi-lightbulb-fill"></i>
+                <?php endif; ?>
+            </span>
+            <span class="sidebar-brand-text">
                 <span class="sidebar-brand-title d-block">LENTERA</span>
-                <span class="sidebar-brand-sub d-block">SMPN 1 Wewewa Timur</span>
+                <span class="sidebar-brand-sub d-block" title="<?= esc($brandSub, 'attr') ?>"><?= esc($brandSub) ?></span>
             </span>
         </a>
 
@@ -112,7 +128,7 @@ $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) 
                 <i class="bi bi-list"></i>
             </button>
 
-            <div class="d-none d-lg-block text-muted small">SMP Negeri 1 Wewewa Timur</div>
+            <div class="d-none d-lg-block text-muted small"><?= esc($schoolLabel) ?></div>
 
             <div class="dropdown ms-auto">
                 <button class="btn btn-light border d-flex align-items-center gap-2" type="button"
@@ -170,7 +186,7 @@ $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) 
         </main>
 
         <footer class="content-footer">
-            &copy; <?= date('Y') ?> <strong>LENTERA</strong> &middot; SMP Negeri 1 Wewewa Timur, Kabupaten Sumba Barat Daya
+            &copy; <?= date('Y') ?> <strong>LENTERA</strong> &middot; <?= esc($footerPlace) ?>
         </footer>
     </div>
 

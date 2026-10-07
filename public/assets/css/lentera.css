@@ -26,6 +26,20 @@ body {
     font-size: 1.75rem;
 }
 
+/* Logo sekolah di dalam brand-mark */
+.brand-mark.has-logo {
+    background: #ffffff;
+    overflow: hidden;
+    padding: 4px;
+}
+
+.brand-mark img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 /* ---------- Halaman login ---------- */
 body.login-page {
     min-height: 100vh;
@@ -96,6 +110,10 @@ body.login-page {
     flex-shrink: 0;
 }
 
+.sidebar-brand-text {
+    min-width: 0;
+}
+
 .sidebar-brand-title {
     font-weight: 700;
     letter-spacing: 0.12em;
@@ -105,6 +123,9 @@ body.login-page {
 .sidebar-brand-sub {
     font-size: 0.7rem;
     color: #94a3b8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .sidebar-nav {

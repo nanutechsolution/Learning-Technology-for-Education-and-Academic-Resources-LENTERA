@@ -268,3 +268,254 @@ DEBUG - 2026-10-07 09:02:26 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2026-10-07 09:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-10-07 09:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-10-07 09:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-10-07 09:08:00 --> CSRF token verified.
+DEBUG - 2026-10-07 09:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-10-07 09:08:08 --> CSRF token verified.
+DEBUG - 2026-10-07 09:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-10-07 09:08:39 --> CSRF token verified.
+DEBUG - 2026-10-07 09:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-10-07 09:09:26 --> CSRF token verified.
+DEBUG - 2026-10-07 09:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-10-07 09:09:36 --> CSRF token verified.
+DEBUG - 2026-10-07 09:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 09:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-10-07 11:26:31 --> CSRF token verified.
+DEBUG - 2026-10-07 11:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-10-07 11:26:35 --> Table 'lentera.announcements' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnnouncementModel.php(144): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\Announcements.php(25): App\Models\AnnouncementModel->getForAdmin()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Admin\Announcements->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Announcements))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\public\\index.php')
+CRITICAL - 2026-10-07 11:26:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'lentera.announcements' doesn't exist
+[Method: GET, Route: admin/announcements]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AnnouncementModel.php(144): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\Announcements.php(25): App\Models\AnnouncementModel->getForAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Admin\Announcements->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Announcements))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\public\\index.php')
+CRITICAL - 2026-10-07 11:26:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'lentera.announcements' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AnnouncementModel.php(144): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\Announcements.php(25): App\Models\AnnouncementModel->getForAdmin()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Admin\Announcements->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Announcements))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\public\\index.php')
+CRITICAL - 2026-10-07 11:26:35 --> [Caused by] mysqli_sql_exception: Table 'lentera.announcements' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT `announcements`.*, `courses`.`title` AS `course_title`, `courses`.`teacher_id` AS `course_teacher_id`, `classes`.`name` AS `class_name`, `subjects`.`name` AS `subject_name`, `users`.`name` AS `author_name`
+FROM `announcements`
+LEFT JOIN `courses` ON `courses`.`id` = `announcements`.`course_id`
+LEFT JOIN `classes` ON `classes`.`id` = `courses`.`class_id`
+LEFT JOIN `subjects` ON `subjects`.`id` = `courses`.`subject_id`
+LEFT JOIN `users` ON `users`.`id` = `announcements`.`author_id`
+ORDER BY COALESCE(announcements.published_at, announcements.created_at) DESC, `announcements`.`id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnnouncementModel.php(144): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\Announcements.php(25): App\Models\AnnouncementModel->getForAdmin()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Admin\Announcements->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Announcements))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\JOKS\\Yordan\\BELAJAR WETIM\\BELAJAR-WETIM\\public\\index.php')
+DEBUG - 2026-10-07 11:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-10-07 11:26:58 --> CSRF token verified.
+DEBUG - 2026-10-07 11:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-10-07 11:27:10 --> CSRF token verified.
+DEBUG - 2026-10-07 11:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-10-07 11:29:46 --> CSRF token verified.
+DEBUG - 2026-10-07 11:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-07 11:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

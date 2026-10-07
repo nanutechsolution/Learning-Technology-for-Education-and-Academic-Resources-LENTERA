@@ -3,6 +3,7 @@
 namespace App\Controllers\Admin;
 
 use App\Controllers\BaseController;
+use App\Models\AnnouncementModel;
 use App\Models\ClassModel;
 use App\Models\CourseModel;
 use App\Models\StudentModel;
@@ -27,6 +28,7 @@ class Dashboard extends BaseController
             $this->response->setBody(view('admin/dashboard', [
                 'title' => 'Dashboard Admin',
                 'stats' => $stats,
+                'announcements' => (new AnnouncementModel())->latestForAdmin(5),
             ]))
         );
     }

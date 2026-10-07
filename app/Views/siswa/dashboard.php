@@ -6,6 +6,12 @@
     Selamat datang, <strong><?= esc(auth_name()) ?></strong>.
 </p>
 
+<?= view('announcements/_widget', [
+    'items'        => $announcements ?? [],
+    'detailPrefix' => 'siswa/announcements',
+    'allUrl'       => 'siswa/announcements',
+]) ?>
+
 <?php if (! $hasProfile): ?>
     <div class="alert alert-warning">
         Akun Anda belum terhubung dengan data siswa. Hubungi admin.

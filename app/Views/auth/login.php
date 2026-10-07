@@ -1,9 +1,12 @@
 <?php
-helper(['url']);
+helper(['url', 'school']);
 
 $error       = session()->getFlashdata('error');
 $success     = session()->getFlashdata('success');
 $oldUsername = (string) session()->getFlashdata('old_username');
+
+$schoolLabel = school_display_name();
+$logoUrl     = school_logo_url();
 
 $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) filemtime(FCPATH . $path) : 0;
 ?>
@@ -13,7 +16,7 @@ $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Masuk | LENTERA</title>
+    <title><?= esc(school_page_title('Masuk')) ?></title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -24,10 +27,16 @@ $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) 
 
     <main class="login-box">
         <div class="text-center mb-4">
-            <div class="brand-mark mb-3"><i class="bi bi-lightbulb-fill"></i></div>
+            <div class="brand-mark mb-3<?= $logoUrl !== null ? ' has-logo' : '' ?>">
+                <?php if ($logoUrl !== null): ?>
+                    <img src="<?= esc($logoUrl, 'attr') ?>" alt="Logo <?= esc($schoolLabel, 'attr') ?>">
+                <?php else: ?>
+                    <i class="bi bi-lightbulb-fill"></i>
+                <?php endif; ?>
+            </div>
             <h1 class="login-title">LENTERA</h1>
             <p class="login-subtitle mb-1">Learning Technology for Education and Academic Resources</p>
-            <p class="login-school mb-0">SMP Negeri 1 Wewewa Timur</p>
+            <p class="login-school mb-0"><?= esc($schoolLabel) ?></p>
         </div>
 
         <div class="card shadow-sm">
@@ -77,7 +86,7 @@ $assetVersion = static fn(string $path): int => is_file(FCPATH . $path) ? (int) 
         </div>
 
         <p class="text-center login-footer mt-4 mb-0">
-            &copy; <?= date('Y') ?> LENTERA &middot; SMP Negeri 1 Wewewa Timur
+            &copy; <?= date('Y') ?> LENTERA &middot; <?= esc($schoolLabel) ?>
         </p>
     </main>
 
